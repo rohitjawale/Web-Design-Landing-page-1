@@ -155,7 +155,7 @@ color:#00ffcc;
 	opacity: 1;
 	right: 0;
   }
-  /*TOP RIGHT BUTTON*/
+ /*TOP RIGHT BUTTON*/
   * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -182,7 +182,7 @@ color:#00ffcc;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-.btn2:hover {
+.btn2:hover span {
 	color:#fff;
 }
 
@@ -201,13 +201,47 @@ color:#00ffcc;
     background-image: linear-gradient( to right, #1de5e2, #b588f7, #b588f7, #1de5e2);
     box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
-/*Containers*/
-	.container {
-		margin-top:125px;
-		padding:40px 20px;
-		background-color:#1a53ff;
-		height:100px;
+/*Others Buttons*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+button {
+	padding: 12px;
+	width:155px;
+  background-image:  linear-gradient( to right, #1de5e2, #b588f7, #b588f7, #1de5e2);
+	font-size: 17px;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	margin: 30px;
+	margin-left:10%;
+	text-align:center;
+	border: none;
+	background-size: 300% 100%;
+	border-radius: 30px;
+	-o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+button:hover {
+	background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+button {
+	outline: none;
+}
+@media only screen and (min-width:768px) {
+	.img {
+		display:block;
+		width:100%;
 	}
+}
+
 
 
     
