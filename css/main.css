@@ -182,7 +182,7 @@ color:#00ffcc;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-.btn2:hover span {
+.btn2:hover {
 	color:#fff;
 }
 
